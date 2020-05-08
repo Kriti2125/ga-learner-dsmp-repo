@@ -143,7 +143,7 @@ secret_msg = " ".join(message_parts)
 #Function write_file
 def write_file(secret_msg, path):
     f = open(path, 'a+')
-    f.write('you are now 1 step closer to become Data Scientist')
+    f.write(secret_msg)
     f.close()
 
 #function call
